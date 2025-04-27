@@ -61,14 +61,14 @@ spec:
   - http:
       paths:
       - pathType: Prefix
-        path: /foo
+        path: /foobar
         backend:
           service:
             name: foo-service
             port:
               number: 8080
       - pathType: Prefix
-        path: /bar
+        path: /barfoo
         backend:
           service:
             name: bar-service
